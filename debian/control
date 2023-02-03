@@ -1,0 +1,70 @@
+Source: qt6-languageserver
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: cmake (>= 3.18~),
+               debhelper-compat (= 13),
+               ninja-build,
+               pkg-config,
+               pkg-kde-tools,
+               qt6-base-dev (>= 6.4.2~),
+               qt6-base-private-dev (>= 6.4.2~),
+Standards-Version: 4.6.0
+Homepage: https://www.qt.io/developers/
+Rules-Requires-Root: no
+
+Package: libqt6jsonrpc6
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Provides: qt6-jsonrpc-abi (= 6.4.2)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 JSON RPC library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt JSON RPC support library.
+
+Package: libqt6languageserver6
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Provides: qt6-languageserver-abi (= 6.4.2)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 Language Server library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Language Server module provides an implementation of the
+ Language server protocol; see:
+ https://microsoft.github.io/language-server-protocol/specification
+
+Package: qt6-languageserver-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libqt6jsonrpc6 (= ${binary:Version}),
+         libqt6languageserver6 (= ${binary:Version}),
+         qt6-base-dev,
+         ${misc:Depends},
+Description: Qt 6 Language Server development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files for building some
+ Qt 6 applications using Qt 6 language server headers.
+
+Package: qt6-languageserver-private-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: qt6-languageserver-dev (= ${binary:Version}), ${misc:Depends}
+Description: Qt 6 Language Server private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 6 applications using Qt 6 language server private headers.
+ .
+ Use at your own risk.

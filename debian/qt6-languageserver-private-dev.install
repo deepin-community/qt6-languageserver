@@ -1,0 +1,4 @@
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtJsonRpc/*/QtJsonRpc/private/*.h
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtLanguageServer/*/QtLanguageServer/private/*.h
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_jsonrpc_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_languageserver_private.pri
