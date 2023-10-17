@@ -1,3 +1,23 @@
+qt6-languageserver (6.6.0-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Rename the virtual ABI packages to qt6-jsonrpc-private-abi and qt6-
+    languageserver-private-abi resp.
+  * Use the (symver) directive to catch all private symbols.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 14 Oct 2023 00:26:41 +0200
+
+qt6-languageserver (6.6.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.6.0).
+  * Bump Qt B-Ds to 6.6.0.
+  * Update ABI to 6.6.0.
+  * Update list of installed files.
+  * Update symbols from buildlogs.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 11 Oct 2023 22:18:41 +0200
+
 qt6-languageserver (6.4.2-2) unstable; urgency=medium
 
   [ Patrick Franz ]

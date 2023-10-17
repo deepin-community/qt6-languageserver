@@ -29,7 +29,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6JsonRpc.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6JsonRpc.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6LanguageServer.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6LanguageServer.so
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6jsonrpcprivate_none_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6languageserverprivate_none_metatypes.json
-usr/share/qt6/modules/JsonRpcPrivate.json
-usr/share/qt6/modules/LanguageServerPrivate.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6jsonrpcprivate_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6languageserverprivate_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/JsonRpcPrivate.json
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/LanguageServerPrivate.json
