@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 6.6.0 amd64
-libQt6LanguageServer.so.6 libqt6languageserver6 #MINVER#, qt6-languageserver-private-abi (= 6.6.0)
+libQt6LanguageServer.so.6 libqt6languageserver6 #MINVER#, qt6-languageserver-private-abi (= 6.6.1)
 * Build-Depends-Packages: qt6-languageserver-dev, qt6-languageserver-private-dev
  Qt_6@Qt_6 6.6.0
  (symver)Qt_6_PRIVATE_API 0
