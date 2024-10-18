@@ -16,39 +16,11 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-languageserver.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-languageserver
 Rules-Requires-Root: no
 
-Package: libqt6jsonrpc6
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
-Provides: qt6-jsonrpc-private-abi (= 6.8.0),
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Qt 6 JSON RPC library
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the Qt JSON RPC support library.
-
-Package: libqt6languageserver6
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
-Provides: qt6-languageserver-private-abi (= 6.8.0),
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Qt 6 Language Server library
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- The Qt Language Server module provides an implementation of the
- Language server protocol; see:
- https://microsoft.github.io/language-server-protocol/specification
-
 Package: qt6-languageserver-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libqt6jsonrpc6 (= ${binary:Version}),
-         libqt6languageserver6 (= ${binary:Version}),
-         qt6-base-dev,
+Depends: qt6-base-dev,
          ${misc:Depends},
 Description: Qt 6 Language Server development files
  Qt is a cross-platform C++ application framework. Qt's primary feature

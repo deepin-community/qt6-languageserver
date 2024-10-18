@@ -3,6 +3,9 @@ qt6-languageserver (6.8.0-0deepin1) UNRELEASED; urgency=medium
   * New upstream release (6.8.0).
   * Bump Qt B-Ds to 6.8.0.
   * Update ABI to 6.8.0.
+  * Remove libqt6jsonrpc6 and libqt6languageserver6
+    https://github.com/qt/qtlanguageserver/commit/1a9a75cacaf4c45fc399915804f7f25d17747343
+  * Update list of installed files.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 18 Oct 2024 13:12:33 +0800
 
