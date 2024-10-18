@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 6.6.0 amd64
-libQt6JsonRpc.so.6 libqt6jsonrpc6 #MINVER#, qt6-jsonrpc-private-abi (= 6.6.1)
+libQt6JsonRpc.so.6 libqt6jsonrpc6 #MINVER#, qt6-jsonrpc-private-abi (= 6.8.0)
 * Build-Depends-Packages: qt6-languageserver-dev, qt6-languageserver-private-dev
  Qt_6@Qt_6 6.6.0
  (symver)Qt_6_PRIVATE_API 0
