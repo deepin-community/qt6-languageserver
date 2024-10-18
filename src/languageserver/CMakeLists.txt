@@ -7,6 +7,7 @@
 
 qt_internal_add_module(LanguageServerPrivate
     INTERNAL_MODULE
+    STATIC
     SOURCES
       qlanguageserverprespectypes_p.h
       qlanguageserverspec_p.h
@@ -19,6 +20,7 @@ qt_internal_add_module(LanguageServerPrivate
       qlspnotifysignals_p.h qlspnotifysignals.cpp
     DEFINES
         QT_BUILD_LANGUAGESERVER_LIB
+        QT_NO_CONTEXTLESS_CONNECT
     PUBLIC_LIBRARIES
         Qt::CorePrivate
         Qt::JsonRpcPrivate
